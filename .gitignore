@@ -1,0 +1,34 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+/logs
+/.env
+
+# testing
+.vscode
+/coverage
+/logs
+/files
+/uploads
+
+# production
+/build
+
+# misc
+.env
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+/logs
+config.js
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+/.vscode
+/.env
+/.logs
