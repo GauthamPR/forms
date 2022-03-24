@@ -1,0 +1,101 @@
+.body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(white, #da98fa);
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+.title {
+    color: black;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.sub {
+    color: black;
+
+}
+
+.info {
+    max-width: 600px;
+    width: 100%;
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+    min-height: 250px;
+    border-radius: 3rem;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px;
+    overflow: hidden;
+    margin: 40px;
+}
+
+.input {
+    width: 480px;
+    height: 35px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px rgb(0, 0, 0) solid;
+    outline: none;
+    color: rgb(0, 0, 0);
+    margin-right: 600px;
+}
+
+.inputContainer p {
+    color: black;
+    font-weight: 500;
+
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+.inputs {
+    width: 100%;
+    display: flex;
+    transition: transform 250ms ease-out;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    width: 80px;
+    height: 40px;
+    background-color: black;
+    border-radius: 1rem;
+    margin-top: 20px;
+    margin-left: auto;
+    border: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 425px) {
+    .buttons {
+        flex-direction: column;
+    }
+
+    .button {
+        width: 100%;
+    }
+
+    .container {
+        padding: 60px 40px;
+        margin: 10px;
+    }
+}

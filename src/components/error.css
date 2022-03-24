@@ -1,0 +1,52 @@
+
+.errorBox {
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.02), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    min-height: 60px;
+    position: fixed;
+    overflow: hidden;
+    bottom: 0;
+    right: 0;
+    margin: 30px;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    border-radius: 5px;
+    z-index: 2000;
+    
+  
+  }
+  
+.errorBox span {
+    margin-left: 30px;
+    color: red;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+  }
+  
+  .errorBox  p {
+    margin: 10px;
+    font-size: 12px;
+    word-break: break-all;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+        bottom: -100px;
+    }
+    100% {
+        bottom: 0px;
+    }
+  }
+  
+  @keyframes fadeOut {
+    0% {
+        bottom: 0px;
+    }
+    100% {
+        bottom: -100px;
+    }
+  }

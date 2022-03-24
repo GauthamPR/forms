@@ -1,0 +1,42 @@
+.placeholder {
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    text-transform: uppercase;
+    z-index: -1;
+}
+
+.label {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.input {
+    width: 100%;
+    /* padding: 10px; */
+    height: 35px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px white solid;
+    outline: none;
+    color: white;
+    z-index: 100;
+
+}
+
+
+
+.inputContainer {
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 100;
+
+}
+
+.errorMsg {
+    font-size: 12px;
+    color: red;
+}

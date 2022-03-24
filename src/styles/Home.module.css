@@ -1,0 +1,52 @@
+.main{
+  display: grid;
+  grid-template-columns: 1fr ;
+  
+}
+.eventform{
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 100px;
+}
+.eventform_con{
+  max-width: 600px;
+}
+.eventdetails_dnt{
+ color: gray;
+ margin-bottom: 10px;
+ font-weight: 500;
+}
+.eventdetails_title{
+  font-size: 30px;
+  margin-bottom: 10px;
+
+}
+.eventdetails_des{
+  color: gray;
+  margin-bottom: 30px;
+  font-size: 14px;
+  line-height: 26px;
+}
+.register{
+  margin-bottom: 20px;
+
+}
+.label{
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 14px;
+}
+.input{
+  width: 100%;
+  padding: 10px;
+  height: 45px;
+  background-color: #eff2f5;
+  border: none;
+  border-radius: 10px;
+  outline-color: #1479ff;
+  margin-bottom: 20px;
+}
+

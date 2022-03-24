@@ -1,0 +1,75 @@
+.main {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-image: url('../public/glassbg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.eventform {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.eventform_con {
+    width: 550px;
+    padding: 60px 40px;
+    /* background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3)); */
+    border-radius: 2rem;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+    background-image: radial-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.1));
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+    backdrop-filter: blur(2rem);
+    /* background-color: rgba(255,255,255,0.05); */
+}
+
+.eventdetails_dnt {
+    color: rgb(255, 255, 255, 0.7);
+    /* margin-bottom: 10px; */
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.eventdetails_title {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    margin-bottom: 40px;
+
+}
+
+.eventdetails_des {
+    color: rgb(255, 255, 255, 0.7);
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.register {
+    margin-bottom: 20px;
+
+}
+
+.button {
+    width: 100%;
+    padding: 10px;
+    height: 45px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #111244;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+/*  */
